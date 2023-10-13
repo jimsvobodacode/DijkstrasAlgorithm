@@ -27,7 +27,7 @@ class Puzzle:
 
     def InitializeData(self):
         self._vertices = []
-        self._vertices.append(Vertex("A", 41.2379, 96.0516))
+        self._vertices.append(Vertex("A", 41.2379, 96.0156))
         self._vertices.append(Vertex("B", 41.2588, 96.0130))
         self._vertices.append(Vertex("C", 41.244, 96.007))
 
@@ -78,6 +78,7 @@ class Puzzle:
 
         #Other5
         v = self.GetVertexByName("Other5")
+        v.adjacent.append(self.GetVertexByName("B"))
         v.adjacent.append(self.GetVertexByName("Other3"))
         v.adjacent.append(self.GetVertexByName("Other6"))
 

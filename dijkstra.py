@@ -1,5 +1,6 @@
 import math
 
+# based on Data Structure and Algorithm Analysis in Java pp. 372-379
 class Dijkstra:
     def __init__(self, vertices, startName):
         self._vertices = vertices

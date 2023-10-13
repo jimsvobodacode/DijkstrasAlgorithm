@@ -1,0 +1,11 @@
+Jim Svoboda
+9/29/23
+
+*** Start ***
+A to Other1 to Other3 to Other5 to B
+B to Other5 to Other3 to Other4 to C
+Total Distance: 3.550041914321117 miles
+*** Stop ***
+
+
+Full program at:  https://github.com/jimsvobodacode/DijkstrasAlgorithm
